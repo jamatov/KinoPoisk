@@ -5,11 +5,24 @@
   padding: 0;
   box-sizing: border-box; 
   font-family: 'Open Sans', sans-serif;
-} 
+  list-style: none;
+}
+
+body{
+  background: #F4F4F4;
+}
 
 .container{
-  width: 1228px;
+  width: 1280px;
   margin: 0 auto;
+}
+
+.df{
+  display: flex;
+}
+
+.bg_white{
+  background: #fff;
 }
 
 
@@ -21,6 +34,7 @@
     display: flex;
     align-items: center;
     gap: 50px;
+    padding-left: 40px;
 
     .nav-box{
       display: flex;
@@ -130,5 +144,30 @@
       }
     }
    
+  }
+}
+
+.Tab{
+  padding: 30px 30px;
+  
+  .tab-item{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap : 5px;
+    font-size: 15px;
+
+    i{
+      width: 24px;
+      height: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    svg{
+      fill: #3E3E3E !important;
+    }
   }
 }
