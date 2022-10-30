@@ -2,6 +2,7 @@ import './App.scss';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Tab from './components/Tab';
+import Home from './pages/Home';
 
 
 function App() {
@@ -11,9 +12,7 @@ function App() {
       <div className="container bg_white ">
         <div className='df'> 
           <Tab/>
-          <div>
-
-          </div>
+          <Home/>
         </div>
         <Footer/>
       </div>

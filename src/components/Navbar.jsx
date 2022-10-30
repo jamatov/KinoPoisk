@@ -3,8 +3,8 @@ import Logo from '../icons/logo.svg'
 
 export default function Navbar() {
   return (
-    <section className='Navbar'>
-      <div className="container nav">
+    <section className='Navbar mb-nav'>
+      <div className="container nav ">
 
         <img src={Logo} alt="" />
 
