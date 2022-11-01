@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <Navbar/>
       <div className="container bg_white ">
-        <div className='df'> 
-          <Tab/>
+        {/* <div className='df'>  */}
+          {/* <Tab/> */}
           <Home/>
-        </div>
+        {/* </div> */}
         <Footer/>
       </div>
     </div>
