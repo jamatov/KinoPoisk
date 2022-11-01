@@ -888,3 +888,22 @@ body{
   }
 
 }
+
+.Biletikino{
+  padding: 0 50px 0 40px;
+  h2{
+    font-size: 24px;
+    color: #1f1f1f;
+    font-weight: 800;
+  }
+
+  .slider{
+    .slider__item{
+      height: 210px;
+      margin-right: 10px;
+      background: #000;
+      color: #21bee7;
+    }
+  }
+
+}
